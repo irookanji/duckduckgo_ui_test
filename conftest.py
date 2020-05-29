@@ -17,6 +17,7 @@ def pytest_addoption(parser):
 
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
 def pytest_runtest_makereport(item):
+    # execute all other hooks to obtain the report object
     outcome = yield
     rep = outcome.get_result()
     setattr(item, "rep_" + rep.when, rep)
