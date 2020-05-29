@@ -13,7 +13,7 @@
 
 <div>
 <h3>To integrate PyCharm with PyTest</h3>
-<p>Preferences -> Tools -> Default test runner -> PyCharm</p>
+<p>Settings ➯ Tools ➯ Python Integrated Tools ➯ Default test runner:pytest</p>
 <div>
 
 <div>
