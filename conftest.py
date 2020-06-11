@@ -43,6 +43,7 @@ def config(request):
             "hub": hub}
 
 
+# @pytest.fixture(scope="session")
 def get_chrome_options(config):
     options = ChromeOptions()
     options.headless = config["headless"]
