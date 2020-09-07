@@ -4,6 +4,7 @@ from pages.base_page import BasePage
 from pages.results_page import ResultPage
 
 
+# Openning & searching actions
 class SearchPage(BasePage):
     _search_field = (By.ID, "search_form_input_homepage")
 
